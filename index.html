@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" target="_blank" href="https://fonts.googleapis.com">
+<link rel="preconnect" target="_blank" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    * {
+      font-size: 11pt !important;
+      font-family: 'Calibri', sans-serif;
+      color: #767171;
+    }
+    #address {
+      margin-bottom: 0 !important;
+      color: #978C83;
+      font-size: 8pt !important;
+      line-height: 1.2rem;
+    }
+    .web-link, span {
+      font-size: 9pt !important;
+      font-weight: lighter;
+      color: #767171;
+    }
+    .web-link:hover {
+      color: rgb(3, 101, 204) !important;
+      text-decoration: none;
+    }
+    h4, #emp-name {
+      margin: 0 0 .3rem 0;
+      font-size: 12pt !important;
+    }
+    .main-sub-content {
+      line-height: 1.2rem !important;
+      font-weight: 450 !important;
+    }
+    #container, #main-content, #phone, #email {
+      display: flex;
+    }
+    #container {
+      width: fit-content;
+      height: auto; 
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    #main-content {
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: row;
+    }
+    #main-content-text {
+      margin-left: .3rem !important;
+    }
+    #third-content {
+      margin-top: 1.4rem;
+      font-weight: 450 !important;
+    }
+    #second-content {
+      margin-top: .8rem;
+    }
+    #logo {
+      width: 166.11pt;
+      height: 59.62pt;
+      min-height: auto;
+      min-width: auto;
+    }
+    .underline {
+      text-decoration: none !important;
+    }
+    p {
+      margin: 0 !important;
+    }
+  
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <main id="container">
+    
+    <div id="main-content">
+      <section>
+        <a href="www.insoft.com">
+          <img id="logo" src="https://raw.githubusercontent.com/mariamparvez/insoft-signature/main/image.png" alt="">
+        </a>
+      </section>
+      <section id="main-content-text">
+        <h4 id="emp-name">Georges Baekelmans</h4>
+
+        <article class="main-sub-content">
+          <p id="emp-des">Managing Director</p>
+          <div id="phone">
+            <p id="emp-phone-input">Phone:</p>
+            <a id="emp-phone" class="underline" target="_blank" href="tel:+91 98400 30468">+91 98400 30468</a>
+            &nbsp;|&nbsp;
+            <a id="emp-phone" class="underline" target="_blank" href="tel:+32 475 242421">+32 475 242421</a>
+          </div>
+          <div id="email">
+            <p id="emp-email-input">Email:</p>
+            <a id="emp-email" class="underline" target="_blank" href="mailto:george@insoft.com">george@insoft.com</a>
+          </div>
+        </article>
+       
+
+      </section>
+    </div>
+  
+    <div id="second-content">
+      <a class="web-link" target="_blank" href="https://www.insoft.com/">www.insoft.com</a>
+      <span> | </span>
+      <a class="web-link" target="_blank" href="https://assistasia.asia/">www.assistasia.asia</a>
+      <span> | </span>
+      <a class="web-link" target="_blank" href="https://www.captiveunit.com/">www.captiveunit.com</a>
+    </div>
+    
+    <div id="third-content">
+      <a class="underline" target="_blank" href="https://goo.gl/maps/ZYCtYDq8gXbT8T2u9">
+        <p id="address">Insoft.com Pvt. Ltd - Belgium Business Center Chennai-6th Floor Prince Infocity, Phase 1, 236 Rajiv Gandhi Salai-Perungudi-Chennai 600 096, India</p>
+      </a>
+      <a class="underline" target="_blank" href="https://maps.app.goo.gl/LD5NCpNetgVRsqSw7?g_st=ic">
+        <p id="address">Insoft.com BV-Fazantendreef 8, 2900 Schoten, Belgium-BE450.412.966</p>
+      </a>
+    </div>
+  </main>
+</body>
+</html>
